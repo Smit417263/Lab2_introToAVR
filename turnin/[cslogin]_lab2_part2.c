@@ -46,7 +46,6 @@ int main(void) {
 	}
 	else if (tmpA == 0x04){
 		cntavail = 4;
-		PORTC = 0x80;
 	}
 
 	PORTC = 4 - cntavail;
